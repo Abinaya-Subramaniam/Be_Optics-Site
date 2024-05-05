@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Policy</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/svg+xml" href="./images/header/hey.svg">
+
+    <style>
+        .content {
+            padding: 50px 10px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 20px 0;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .container p {
+            line-height: 1.6;
+            font-size: 15.5px;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .cookie-notice {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .cookie-notice p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .cookie-notice a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .cookie-notice button {
+            padding: 10px 20px;
+            background-color: #BD0150;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .cookie-notice button:hover {
+            background-color: #8C013E;
+        }
+
+        h4 {
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+
+        @media only screen and (min-width: 768px) {
+            .content {
+                padding: 50px 6cm;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <img src="images/specs images/optics-logo.png" style="display: none;">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html"><img src="images/specs images/optics-logo.png" alt="comp" width="225px"></a>
+                </div>
+                <nav style="color: white;">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html">HOME</a></li>
+                        <li class="nav-item"><a href="forher.html">FOR HER</a></li>
+                        <li class="nav-item"><a href="forhim.html">FOR HIM</a></li>
+                        <li class="nav-item"><a href="#footer">CONTACT US</a></li>
+                        <li class="nav-item">
+                            <div class="user-icon">
+                                <i class="fa fa-user" style="font-size: 20px;"></i>
+                                <div class="login-dropdown">
+                                    <a href="login.php">Login</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="toggle"><i class="fa fa-bars"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h1>Shipping Policy</h1>
+            <br>
+            <p>Thank you for shopping at Be Optics. Please read this Shipping Policy carefully before making a purchase.
+                By purchasing from our website, you agree to abide by the terms and conditions of this Shipping Policy.
+            </p><br>
+
+            <h4>Shipping Rates and Delivery Estimates</h4>
+            <p>Shipping charges for your order will be calculated and displayed at checkout. Delivery delays can
+                occasionally occur. Please allow up to 2 weeks for delivery within the United States. International
+                shipping times may vary depending on the destination.</p><br>
+
+            <h4>Shipment Confirmation and Order Tracking</h4>
+            <p>You will receive a shipment confirmation email once your order has been shipped containing your tracking
+                number(s). The tracking number will be active within 24 hours.</p><br>
+
+            <h4>Customs, Duties, and Taxes</h4>
+            <p>Be Optics is not responsible for any customs and taxes applied to your order. All fees imposed during or
+                after shipping are the responsibility of the customer (tariffs, taxes, etc.).</p><br>
+
+            <h4>Damages</h4>
+            <p>Be Optics is not liable for any products damaged or lost during shipping. If you received your order
+                damaged, please contact the shipment carrier to file a claim.</p><br>
+
+            <h4>International Shipping Policy</h4>
+            <p>We currently do not ship outside the United States.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Be Optics. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cookie-notice">
+        <p>We use cookies to ensure you get the best experience on our website. By continuing to use our site, you
+            consent to our <a href="#">cookie policy</a>.</p>
+        <button onclick="agreeCookie()">Agree and Continue</button>
+    </div>
+
+    <script>
+        function agreeCookie() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+
+</html>
